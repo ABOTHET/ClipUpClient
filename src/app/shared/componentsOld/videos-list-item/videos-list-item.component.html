@@ -1,0 +1,14 @@
+<a class="videos-list-item" routerLink="/">
+  <div class="video-picture">
+    <app-picture [src]="link"/>
+  </div>
+  <div class="info">
+    <div class="avatar-picture">
+      <app-picture src="https://sun74-2.userapi.com/impg/F9LVrnFBN67OXl-aPJI24oTdW6UkOeP0yJkAwQ/prugxCuwqz4.jpg?size=512x512&quality=95&sign=bfa582c1c30433bcc3c54e897423a821&type=album"></app-picture>
+    </div>
+    <div class="name-date">
+      <div class="name">{{ name }}</div>
+      <div class="date">{{ getDate() }}</div>
+    </div>
+  </div>
+</a>
